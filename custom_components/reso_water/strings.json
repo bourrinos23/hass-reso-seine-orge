@@ -19,5 +19,39 @@
     "abort": {
       "already_configured": "Ce compte RESO est déjà configuré"
     }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Tarifs — Eau Potable",
+        "description": "Valeurs disponibles sur votre facture RESO, section 'Eau Potable'.",
+        "data": {
+          "ep_abonnement_annuel_ht": "Abonnement annuel HT (€/an)",
+          "ep_conso_m3_ht": "Consommation HT (€/m³)",
+          "ep_tva": "TVA applicable (%)"
+        }
+      },
+      "assainissement": {
+        "title": "Tarifs — Assainissement",
+        "description": "Valeurs disponibles sur votre facture RESO, section 'Assainissement'.",
+        "data": {
+          "as_territoriale_m3_ht": "Redevance territoriale HT (€/m³) — TVA 0%",
+          "as_syndicale_m3_ht": "Redevance syndicale HT (€/m³) — TVA 10%",
+          "as_interdep_m3_ht": "Redevance interdépartementale HT (€/m³) — TVA 10%"
+        }
+      },
+      "organismes": {
+        "title": "Tarifs — Organismes Publics",
+        "description": "Valeurs disponibles sur votre facture RESO, section 'Organismes Publics'.",
+        "data": {
+          "op_vnf_m3_ht": "Voies Navigables de France HT (€/m³)",
+          "op_eptb_m3_ht": "EPTB Seine Grands Lacs HT (€/m³)",
+          "op_prel_ressource_m3_ht": "Prélèvement sur la ressource HT (€/m³)",
+          "op_aesn_conso_m3_ht": "AESN Redevance consommation HT (€/m³)",
+          "op_aesn_perf_ep_m3_ht": "AESN Performance réseaux eau potable HT (€/m³)",
+          "op_aesn_perf_as_m3_ht": "AESN Performance réseaux assainissement HT (€/m³) — TVA 10%"
+        }
+      }
+    }
   }
 }
