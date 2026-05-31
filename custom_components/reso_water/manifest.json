@@ -1,0 +1,11 @@
+{
+  "domain": "reso_water",
+  "name": "RESO Seine & Orge - Eau",
+  "version": "1.0.0",
+  "documentation": "https://github.com/loic-desaintetienne/hass-reso-seine-orge",
+  "issue_tracker": "https://github.com/loic-desaintetienne/hass-reso-seine-orge/issues",
+  "requirements": ["requests>=2.28.0"],
+  "codeowners": ["@loic-desaintetienne"],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
