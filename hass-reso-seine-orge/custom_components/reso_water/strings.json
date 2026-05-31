@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connexion RESO Seine & Orge",
+        "description": "Entrez vos identifiants du portail ael.eauxseinebievreorge.fr",
+        "data": {
+          "email": "Adresse e-mail",
+          "password": "Mot de passe",
+          "contrat": "Numéro de contrat (optionnel, détecté automatiquement)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Email ou mot de passe incorrect",
+      "cannot_connect": "Impossible de se connecter au serveur RESO",
+      "unknown": "Erreur inconnue"
+    },
+    "abort": {
+      "already_configured": "Ce compte RESO est déjà configuré"
+    }
+  }
+}
